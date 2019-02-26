@@ -1,4 +1,17 @@
 .main-title {
     background: red;
-    border: 2px solid black;
+}
+
+.fancy-font, .navbar {
+    font-family: 'Lato', sans-serif;
+    color: rgba(238, 156, 55, 0.788)
+}
+
+.navbar ul {
+    display: flex
+}
+
+li {
+    margin: 0 auto;
+    list-style-type: none
 }
