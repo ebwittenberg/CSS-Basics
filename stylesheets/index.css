@@ -8,16 +8,36 @@
     margin: 0
 }
 
+.hero-image {
+    background-image: url(../images/peapod.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .fancy-font, .navbar {
     font-family: 'Lato', sans-serif;
     color: rgba(238, 156, 55, 0.788)
 }
 
 .navbar ul {
-    display: flex
+    padding-left: 0;
+}
+
+/* read selectors from right to left (li then navbar) */
+.navbar li {
+    color: green;
+    font-size: 16px;
+    list-style: none;
 }
 
 li {
-    margin: 0 auto;
-    list-style-type: none
+    font-size: 24px;
+}
+.main-image {
+    width: 300px;
+}
+.main-image img {
+    width: 100%;
 }
